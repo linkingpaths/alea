@@ -12,7 +12,11 @@ Install
 
 The junk 
 --------
- 
+
+require 'alea'
+
+# Add between 10 and 25 friends to a user 
+@user.add_friends rand_within(10..25)
  
 
 Credits
