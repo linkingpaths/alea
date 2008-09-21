@@ -17,6 +17,20 @@ require 'alea'
 
 # Add between 10 and 25 friends to a user
 @user.add_friends rand_within(10..25)
+
+# 75% chances of this happen
+frequently do
+  update_profile(@user) 
+end
+
+# 65% chances of this happen
+probably do
+  @group.activate!
+end
+
+# 50% chances of true 
+@group.moderated = maybe
+
 </pre> 
 
 Credits
