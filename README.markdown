@@ -18,20 +18,41 @@ require 'alea'
 # Add between 10 and 25 friends to a user
 @user.add_friends rand_within(10..25)
 
-# 75% chances of this happen
+# 75% chances of this happens
 frequently do
   update_profile(@user) 
 end
 
-# 65% chances of this happen
+# 65% chances of this happens
 probably do
   @group.activate!
+end
+
+# 20% chances of this happens
+rarely do
+  generate_404
+end
+
+# 5% chances of this happens
+almost_never do
+    grant_admin_privileges(@user)
+end
+
+# 95% chances of this happens
+almost_always do
+  post_incorrect_data_for_captcha
 end
 
 # 50% chances of true 
 @group.moderated = maybe
 
+# Calculate rounded percents 
+send_mail_to 20.percent.of(the_community)
+
+
 </pre> 
+
+PS: I will probably give the option of set custom % via Alea::PROBABLY, Alea::RARELY etc. soon.
 
 Credits
 -------
