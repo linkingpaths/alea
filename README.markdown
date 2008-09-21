@@ -12,12 +12,12 @@ Install
 
 The junk 
 --------
-<code>
+<pre>
 require 'alea'
 
 # Add between 10 and 25 friends to a user
 @user.add_friends rand_within(10..25)
-</code> 
+</pre> 
 
 Credits
 -------
