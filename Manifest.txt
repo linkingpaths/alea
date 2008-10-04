@@ -12,7 +12,6 @@ lib/alea/numeric.rb
 lib/alea/percentage.rb
 lib/alea/range.rb
 lib/alea/version.rb
-patch
 test/test_helper.rb
 test/test_kernel.rb
 test/test_numeric.rb

@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = %q{alea is a tiny gem that aim to bring some aleatory behavior to ruby Kernel.}
   s.email = ["aitor@linkingpaths.com"]
   s.extra_rdoc_files = ["Manifest.txt"]
-  s.files = ["HISTORY", "LICENSE", "Manifest.txt", "POSTINSTALL", "README.markdown", "Rakefile", "config/hoe.rb", "config/requirements.rb", "lib/alea.rb", "lib/alea/kernel.rb", "lib/alea/numeric.rb", "lib/alea/percentage.rb", "lib/alea/range.rb", "lib/alea/version.rb", "patch", "test/test_helper.rb", "test/test_kernel.rb", "test/test_numeric.rb", "test/test_percentage.rb", "test/test_range.rb"]
+  s.files = ["HISTORY", "LICENSE", "Manifest.txt", "POSTINSTALL", "README.markdown", "Rakefile", "config/hoe.rb", "config/requirements.rb", "lib/alea.rb", "lib/alea/kernel.rb", "lib/alea/numeric.rb", "lib/alea/percentage.rb", "lib/alea/range.rb", "lib/alea/version.rb", "test/test_helper.rb", "test/test_kernel.rb", "test/test_numeric.rb", "test/test_percentage.rb", "test/test_range.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/linkingpaths/alea}
   s.post_install_message = %q{
