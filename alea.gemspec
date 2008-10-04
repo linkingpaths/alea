@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = %q{alea}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Linking Paths"]
-  s.date = %q{2008-09-21}
+  s.date = %q{2008-10-04}
   s.description = %q{alea is a tiny gem that aim to bring some aleatory behavior to ruby Kernel.}
   s.email = ["aitor@linkingpaths.com"]
   s.extra_rdoc_files = ["Manifest.txt"]

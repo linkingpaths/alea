@@ -30,7 +30,7 @@ module Kernel
 
   def chances_of_this_happens(percent = 50.percent, &block)
     if block_given?
-      percent.chance.of block
+      percent.chance.of &block
     else
       percent.chance.happens?
     end

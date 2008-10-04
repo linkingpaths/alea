@@ -8,4 +8,5 @@ class TestKernel < Test::Unit::TestCase
       assert lottery >=10 && lottery <= 20
     }
   end
+
 end
