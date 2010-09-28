@@ -8,7 +8,7 @@ alea is a tiny gem that aim to bring some aleatory behavior to ruby Kernel.
 Install
 -------
 
-´sudo gem install linkingpaths-alea´
+´sudo gem install alea´
 
 The junk 
 --------
